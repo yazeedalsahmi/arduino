@@ -1,0 +1,37 @@
+header  {
+background-image:url(ard.svg);  
+background-repeat: no-repeat ;
+  background-size: cover;
+    position: margin;
+      background-position: center;
+
+
+   
+}
+
+header h2 {
+  color: white;
+  text-align:center;
+}
+
+header nav ul li{
+  display: inline-block;
+  margin-left: 30px;
+  font-size: large;
+  padding-top: 200px;
+
+}
+
+header nav ul li a{
+    color:white;
+    text-decoration: none;
+    text
+}
+footer{
+  background-color: #bdc7c9;
+}
+html {
+
+
+   
+}
