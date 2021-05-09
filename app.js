@@ -53,4 +53,3 @@ document.write('nano has 14 degital I/O pin but have small size')
 <<<<<<< HEAD
 */
 
-
