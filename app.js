@@ -1,10 +1,10 @@
 
 var user = prompt('Whats your name ??')
 alert('Hello Eng ' + user)
-var mc = prompt('Before you join you must answer on this question correctly , what is name the microcontroller in arduino??')
-while (mc !== 'atmega' ){
+//var mc = prompt('Before you join you must answer on this question correctly , what is name the microcontroller in arduino??')
+/*while (mc !== 'atmega' ){
 mc = prompt ('sorry ,try agin !!')}
-
+*/
 var ard = prompt('choose arduino version(Uno,Mega,Nano) you want to buy ??')
 var num = prompt('How many do you want to buy')
 var image = ''
@@ -52,4 +52,29 @@ document.write('nano has 14 degital I/O pin but have small size')
   }
 <<<<<<< HEAD
 */
+function priceProduct(num){
+  if(ard === 'uno'){
+
+  price = num * 3
+    alert("The price is " +price + "$")
+
+}else if(ard === 'mega'){
+    price = num * 6
+alert("The price is " +price + "$")
+}else if (ard === 'nano') {
+    price = num * 4
+alert("The price is " +price + "$")
+  }
+  else {
+    alert('okay you should only pick uno,mega,nano')
+    return (priceproduct +"$" )
+    //console.log(priceProduct(num))
+}
+}
+//document.write(priceProduct(num))
+priceProduct(num)
+
+
+
+
 
